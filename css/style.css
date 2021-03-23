@@ -5,6 +5,21 @@
     box-sizing: border-box;
     font-family: 'Mulish' , sans-serif;
 }
+/*==== BARRA SCROLL =====*/
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #d40219;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #d40219;
+}
+
+#c
 #container
 {
     height: 100vh;
