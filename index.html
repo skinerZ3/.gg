@@ -5,6 +5,10 @@
     <title>Z3 - FAMILY</title>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="librerias/bootstrap4/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="librerias/bootstrap4/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
      <link rel="shortcut icon" href="Images/iconz.png" type="image/png" />
@@ -63,10 +67,40 @@
             <i class="fab fa-youtube"></i>
             <div id="line"></div>
         </div>
+            
+             <div class="gallery-section">
+      <div class="inner-width">
+        <h1>GALERIA</h1>
+        <div class="border"></div>
+        <div class="gallery">
+
+          <a href="Images/1.png" class="image">
+            <img src="Images/1.png" alt="">
+          </a>
+
+          <a href="Images/2.png" class="image">
+            <img src="Images/2.png" alt="">
+          </a>
+
+         
+
+        </div>
+      </div>
+    </div>
+    
  
     <audio src="scotts.mp3" loop="3" volume="30" autoplay="true";></audio>
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+        <script>
+    $(".gallery").magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+        enabled: true
+      }
+    });
+  </script>        
  
 </body>
 </html>
